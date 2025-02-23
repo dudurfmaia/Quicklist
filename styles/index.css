@@ -157,3 +157,51 @@ input {
   font: 400 16px/140% Inter, serif;
   padding: 11px 18px;
 }
+
+@media (width < 1280px) {
+  .logo {
+    display: none;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    margin: 76px 32px 0 32px;
+    max-width: 327px;
+    height: 526px;
+  }
+  .add-itn {
+    display: flex;
+    flex-direction: column;
+    max-width: 327px;
+  }
+  .input-add {
+    max-width: 327px;
+  }
+  .add-btn {
+    max-width: 327px;
+    width: 100%;
+  }
+  ul {
+    max-width: 327px;
+    height: 264px;
+    width: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--color-brand);
+      border-radius: 10px;
+    }
+  }
+
+  li {
+    max-width: 327px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .delete {
+    width: 18px;
+    height: 18px;
+  }
+}
