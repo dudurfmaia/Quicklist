@@ -205,3 +205,35 @@ input {
     height: 18px;
   }
 }
+
+.deleteLi {
+  width: 627px;
+  height: 44px;
+  position: relative;
+  align-items: center;
+  background-color: var(--color-danger);
+  border-radius: 12px;
+  display: flex;
+  justify-self: center;
+  margin-top: 16px;
+}
+.span-txt-delete {
+  position: absolute;
+  font: var(--label);
+  color: var(--always-white);
+  left: 42px;
+}
+
+.deleteImg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.closeDelete {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
