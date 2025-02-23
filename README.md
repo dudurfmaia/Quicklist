@@ -18,7 +18,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 
 <p align="center">
-  <img alt="snitap" src="![Thumbnail](https://github.com/user-attachments/assets/915c9928-313f-4c98-a571-b9e45cc9b6b6)
+  <img alt="quicklist" src="https://github.com/user-attachments/assets/915c9928-313f-4c98-a571-b9e45cc9b6b6
 " width="100%">
 
 </p>
